@@ -1,0 +1,169 @@
+body {
+    font-family: "Righteous", sans-serif;
+    font-style: normal;
+    overflow: hidden;
+    margin: 0px;
+    background-position: center center;
+    background-size: cover; 
+    background-color: black;
+}
+
+.background {
+    background-image: url('/Nasa2/img/lua.jpg');
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    z-index: -9;
+}
+
+.nav nav {
+    font-size: 150%;
+    backdrop-filter: blur(2px);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    position: absolute;
+    height: max-content;
+    width: 100%;
+}
+
+.nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav a:hover{
+    color: rgb(182, 181, 181);
+
+}
+
+.content{
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    background: url("../img/lua.jpg");
+    height: 100vh;
+    background-position: center center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content h1{
+    font-size: 72px;
+    background: -webkit-linear-gradient(rgb(255, 255, 255) 22%,rgb(255, 255, 255) 33%,rgb(255, 255, 255) 33%,rgb(255, 255, 255) 22%,rgb(255, 255, 255) 22%, rgba(2,0,36,1) 80%);;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+*{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.botao{
+    background-color: #2196F3;
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    transition: background-color 0.5s ease;
+    font-family: "Righteous", sans-serif;
+}
+.botao:hover{
+    background-color: #2a7bbd;
+}
+
+
+
+
+/* CONTEUDO */
+
+
+
+.grid-container{
+    display: flex;
+    grid-template-columns: 20% 20% 20%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    column-gap: 100px;
+    row-gap: 100px;
+    position: relative;
+}
+
+
+.item1{
+    border: 1px;
+    border-color: rgb(179, 53, 7);
+    height: 350px;
+    width: 300px;
+    border-radius: 2%;
+    border-style: solid;
+    color: black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    backdrop-filter: blur(3px);
+}
+
+
+.item2{
+    border: 1px;
+    border-color: rgb(179, 53, 7);
+    height: 350px;
+    width: 300px;
+    border-radius: 2%;
+    border-style: solid;
+    color: black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    backdrop-filter: blur(3px);
+}
+
+.item3{
+    border: 1px;
+    border-color: rgb(179, 53, 7);
+    height: 350px;
+    width: 300px;
+    border-radius: 2%;
+    border-style: solid;
+    color: black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    backdrop-filter: blur(3px);
+}
+
+.item4{
+    border: 1px;
+    border-color: rgb(179, 53, 7);
+    height: 350px;
+    width: 300px;
+    border-radius: 2%;
+    border-style: solid;
+    color: black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    backdrop-filter: blur(3px);
+}
